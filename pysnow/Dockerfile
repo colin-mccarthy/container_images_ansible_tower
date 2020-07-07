@@ -11,6 +11,7 @@ RUN yum-config-manager --add-repo https://releases.ansible.com/ansible-runner/an
 	yum install -y epel-release && \
 	yum install -y python-pip ansible-runner bubblewrap sudo rsync openssh-clients sshpass && \
 	pip install --no-cache-dir ansible && \
+	pip install --no-cache-dir pysnow && \
 	localedef -c -i en_US -f UTF-8 en_US.UTF-8 && \
 	chmod +x /bin/tini /bin/entrypoint && rm -rf /var/cache/yum
 
