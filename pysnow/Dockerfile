@@ -10,9 +10,9 @@ RUN mkdir -p /runner/inventory /runner/project /runner/artifacts /runner/.ansibl
 	chmod -R g+w /runner && chgrp -R root /runner && \
 	chmod g+w /etc/passwd
 
-VOLUME /runner/inventory
-VOLUME /runner/project
-VOLUME /runner/artifacts
+# VOLUME /runner/inventory
+# VOLUME /runner/project
+# VOLUME /runner/artifacts
 
 ENV LANG=en_US.UTF-8
 ENV LANGUAGE=en_US:en
