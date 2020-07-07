@@ -1,7 +1,7 @@
 FROM quay.io/colin_mccarthy/ansible-runner:stable_1.4.x
 
 
-RUN pip install --no-cache-dir pysnow
+RUN pip3 install --no-cache-dir pysnow
 
 
 # In OpenShift, container will run as a random uid number and gid 0. Make sure things
