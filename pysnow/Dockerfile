@@ -1,12 +1,8 @@
 FROM quay.io/colin_mccarthy/ansible-runner:stable_1.4.x
 
-ADD https://github.com/krallin/tini/releases/download/v0.18.0/tini /bin/tini
-ADD utils/entrypoint.sh /bin/entrypoint
-ADD demo/project /runner/project
-ADD demo/env /runner/env
-ADD demo/inventory /runner/inventory
 
-Run pip install --no-cache-dir pysnow
+RUN pip install --no-cache-dir pysnow
+
 
 # In OpenShift, container will run as a random uid number and gid 0. Make sure things
 # are writeable by the root group.
@@ -28,3 +24,7 @@ WORKDIR /runner
 
 ENTRYPOINT ["entrypoint"]
 CMD ["ansible-runner", "run", "/runner"]
+
+
+
+
