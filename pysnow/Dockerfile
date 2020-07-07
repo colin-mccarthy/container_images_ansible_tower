@@ -6,16 +6,10 @@ RUN pip3 install --no-cache-dir pysnow
 
 # In OpenShift, container will run as a random uid number and gid 0. Make sure things
 # are writeable by the root group.
-RUN mkdir -p /runner/inventory /runner/project /runner/artifacts /runner/.ansible/tmp && \
+# RUN mkdir -p /runner/inventory /runner/project /runner/artifacts /runner/.ansible/tmp && \
 	chmod -R g+w /runner && chgrp -R root /runner && \
 	chmod g+w /etc/passwd
 
-
-# ENV LANG=en_US.UTF-8
-# ENV LANGUAGE=en_US:en
-# ENV LC_ALL=en_US.UTF-8
-# ENV RUNNER_BASE_COMMAND=ansible-playbook
-# ENV HOME=/runner
 
 WORKDIR /runner
 
