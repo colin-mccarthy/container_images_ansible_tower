@@ -17,7 +17,7 @@ Create a RoleBinding
 
 CREDENTIAL TYPE == OpenShift or Kubernetes API Bearer Token
 
-Copy stuff from the service account created in that project
+Copy stuff from the service account created in that project (User Management > Service Accounts > The one you made in the earlier steps)
 
 OPENSHIFT OR KUBERNETES API ENDPOINT (short version from oc login with https://api.foo.openshift.io:6443)
 
