@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  namespace: aschoenf
+  namespace: ansible-tower
 spec:
   containers:
     - image: 'registry.redhat.io/ansible-tower-37/ansible-runner-rhel7'
