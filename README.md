@@ -3,7 +3,7 @@
 What are they? 
 Serverless functions, Tower feature that runs a playbook on OpenShift/Kubernetes.
 
-## Auth
+## OpenShift Steps
 
 Create a Project/NameSpace (ansible-tower)
 
