@@ -13,9 +13,11 @@ Create a Role (pod-manager)
 
 Create a RoleBinding
 
-## Credential
+## Ansible Tower Steps 
 
-CREDENTIAL TYPE == OpenShift or Kubernetes API Bearer Token
+Create the Credential
+
+`CREDENTIAL TYPE == OpenShift or Kubernetes API Bearer Token
 
 Copy stuff from the service account created in that project (User Management > Service Accounts > The one you made in the earlier steps)
 
@@ -23,7 +25,11 @@ OPENSHIFT OR KUBERNETES API ENDPOINT (short version from oc login with https://a
 
 API AUTHENTICATION BEARER TOKEN (can be used by itself without cert auth data, you don't need both)
 
-CERTIFICATE AUTHORITY DATA
+CERTIFICATE AUTHORITY DATA`
+
+Create the Container Group
+
+
 
 ## Quay/Clair
 
