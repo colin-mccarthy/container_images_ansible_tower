@@ -1,10 +1,12 @@
 FROM quay.io/colin_mccarthy/ansible-runner:stable_1.4.x
 
 
+# Securing the Pod
+RUN dnf update bind
+
 
 # dependencies 
 RUN pip3 install --no-cache-dir pysnow
-
 
 
 # required
