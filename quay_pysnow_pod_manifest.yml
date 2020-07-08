@@ -4,7 +4,7 @@ metadata:
   namespace: ansible-tower
 spec:
   containers:
-    - image: 'quay.io/ansible-tower/ansible-runner:1.4.4'
+    - image: 'quay.io/colin_mccarthy/pysnow_pod:latest'
       tty: true
       stdin: true
       imagePullPolicy: Always
