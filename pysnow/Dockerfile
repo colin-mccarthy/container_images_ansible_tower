@@ -8,7 +8,7 @@ RUN pip3 install --no-cache-dir pysnow
 
 
 # required
- CMD ["ansible-runner", "run", "/runner"]
+CMD ["ansible-runner", "run", "/runner"]
 
 
 
