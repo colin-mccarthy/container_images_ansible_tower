@@ -6,7 +6,7 @@ RUN pip3 install --no-cache-dir pysnow
 
 
 # ENTRYPOINT ["entrypoint"]
-# CMD ["ansible-runner", "run", "/runner"]
+ CMD ["ansible-runner", "run", "/runner"]
 
 
 
