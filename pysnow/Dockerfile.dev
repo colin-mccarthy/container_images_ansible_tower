@@ -2,7 +2,8 @@ FROM quay.io/colin_mccarthy/ansible-runner:stable_1.4.x
 
 
 # Securing the Pod
-RUN dnf -y update
+RUN dnf -y update && \
+    rm -rf /var/cache/dnf
 
 
 # dependencies 
