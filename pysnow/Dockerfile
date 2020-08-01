@@ -1,4 +1,4 @@
-# Base Ansible Runner image
+# base Ansible Runner image
 FROM quay.io/colin_mccarthy/ansible-runner:stable_1.4.x
 
 
