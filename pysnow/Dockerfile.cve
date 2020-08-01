@@ -1,0 +1,15 @@
+# base Ansible Runner image
+FROM quay.io/colin_mccarthy/ansible-runner:stable_1.4.x
+
+
+# securing the pod
+RUN dnf -y dnf upgrade --cve CVE-2020-12049,CVE-2020-11080,CVE-2020-8616,CVE-2020-8617,CVE-2020-13777 && \
+    dnf clean all
+
+
+# dependencies 
+RUN pip3 install --no-cache-dir pysnow==0.7.16 
+
+
+# required
+CMD ["ansible-runner", "run", "/runner"]
