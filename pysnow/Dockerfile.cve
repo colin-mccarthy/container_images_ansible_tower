@@ -3,7 +3,7 @@ FROM quay.io/colin_mccarthy/ansible-runner:stable_1.4.x
 
 
 # securing the pod
-RUN dnf -y dnf upgrade --cve CVE-2020-12049,CVE-2020-11080,CVE-2020-8616,CVE-2020-8617,CVE-2020-13777 && \
+RUN dnf -y upgrade --cve CVE-2020-12049,CVE-2020-11080,CVE-2020-8616,CVE-2020-8617,CVE-2020-13777 && \
     dnf clean all
 
 
