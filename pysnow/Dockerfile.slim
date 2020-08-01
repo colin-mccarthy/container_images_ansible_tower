@@ -3,8 +3,8 @@ FROM quay.io/colin_mccarthy/ansible-runner:stable_1.4.x
 
 
 # securing the pod
-COPY install-packages.sh .
-RUN ./install-packages.sh
+RUN dnf -y upgrade-minimal && \
+    dnf clean all
 
 
 # dependencies 
