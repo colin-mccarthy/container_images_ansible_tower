@@ -1,4 +1,4 @@
-# Container Groups
+# Container Groups.
 
 What are they? 
 Serverless functions, Tower feature that runs a playbook on OpenShift/Kubernetes.
