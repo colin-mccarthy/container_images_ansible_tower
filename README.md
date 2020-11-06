@@ -1,5 +1,11 @@
 # Container Groups.
 
+<code><img height="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/kubernetes.svg"></code>
+<code><img height="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/ansible.svg"></code>
+<code><img height="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/redhatopenshift.svg"></code>
+<code><img height="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/docker.svg"></code>
+<code><img height="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/redhat.svg"></code>
+
 What are they? 
 Serverless functions, Tower feature that runs a playbook on OpenShift/Kubernetes.
 
