@@ -6,8 +6,9 @@
 <code><img height="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/docker.svg"></code>
 <code><img height="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/redhat.svg"></code>
 
-What are they? 
-Serverless functions, Tower feature that runs a playbook on OpenShift/Kubernetes.
+Q: What are they? 
+
+A: A new Ansible Tower feature that runs a playbook on OpenShift/Kubernetes.
 
 ## OpenShift Steps
 
