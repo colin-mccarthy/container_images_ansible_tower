@@ -40,7 +40,6 @@ Create the Container Group
 
 
 
-## Quay/Clair
 
 
 
